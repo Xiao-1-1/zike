@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { IndianRupee, Vote, CheckSquare, Sparkles, Plus, Check, ArrowUpRight, ArrowDownLeft, QrCode } from "lucide-react";
+import { IndianRupee, Vote, CheckSquare, Sparkles, Plus, Check, ArrowUpRight, ArrowDownLeft } from "lucide-react";
 import confetti from "canvas-confetti";
 
 export function RightActionDock({

@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import { Send, Smile, Plus, IndianRupee, Vote, CheckSquare, Sparkles, AlertCircle } from "lucide-react";
+import { Send, Smile, Plus, IndianRupee, Vote, CheckSquare } from "lucide-react";
 import { STICKERS } from "../data/mockData";
 
 export function ChatStream({
@@ -8,7 +8,6 @@ export function ChatStream({
   onOpenSplitPayModal,
   onOpenPollModal,
   onOpenTaskModal,
-  onOpenAiBriefing,
   onVotePoll,
   onSettleExpense
 }) {

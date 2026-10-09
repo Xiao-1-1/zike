@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { X, IndianRupee, Vote, CheckSquare, Plus, Users, Sparkles } from "lucide-react";
+import { X, IndianRupee, Vote, CheckSquare, Sparkles } from "lucide-react";
 
 export function AddExpenseModal({ space, onClose, onAddExpense }) {
   const [title, setTitle] = useState("");
@@ -403,7 +403,18 @@ export function CreateSpaceModal({ onClose, onCreateSpace }) {
               <label style={{ fontSize: "0.75rem", color: "var(--text-dim)", textTransform: "uppercase", fontWeight: "700" }}>Category</label>
               <select
                 value={category}
-                onChange={(e) => setCategory(e.target.value)}
+                onChange={(e) => {
+                  const val = e.target.value;
+                  setCategory(val);
+                  const emojiMap = {
+                    Hackathon: "⚡",
+                    Trip: "🏖️",
+                    Flatmates: "🏠",
+                    Event: "🎉",
+                    Project: "💼"
+                  };
+                  if (emojiMap[val]) setEmoji(emojiMap[val]);
+                }}
                 style={{ width: "100%", marginTop: "4px" }}
               >
                 <option value="Hackathon">⚡ Hackathon</option>

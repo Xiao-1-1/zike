@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Presentation, X, CheckCircle, AlertTriangle, ShieldCheck, Zap, TrendingUp, Layers } from "lucide-react";
+import { Presentation, X, CheckCircle } from "lucide-react";
 
 export function TeardownModal({ onClose }) {
   const [activeSlide, setActiveSlide] = useState(0);

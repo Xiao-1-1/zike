@@ -1,5 +1,5 @@
 import React from "react";
-import { Sparkles, X, CheckCircle2, IndianRupee, Clock, Zap, Share2 } from "lucide-react";
+import { Sparkles, X, CheckCircle2, IndianRupee, Clock } from "lucide-react";
 
 export function AiBriefingModal({ space, onClose }) {
   const totalSpend = space.expenses.reduce((s, e) => s + e.amount, 0);

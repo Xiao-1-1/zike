@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Archive, X, Download, Share2, Check, ShieldCheck, Trash2 } from "lucide-react";
+import { Archive, X, Download, Check, ShieldCheck, Trash2 } from "lucide-react";
 import confetti from "canvas-confetti";
 
 export function VaultExportModal({ space, onClose, onArchiveSpace }) {

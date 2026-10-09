@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Plus, Pin, ShieldCheck, Zap, Sparkles, MessageSquare, Compass, Radio } from "lucide-react";
+import React from "react";
+import { Plus, Pin, ShieldCheck } from "lucide-react";
 
 export function Sidebar({ spaces, activeSpaceId, onSelectSpace, onNewSpaceClick }) {
   const activeSpace = spaces.find(s => s.id === activeSpaceId) || spaces[0];

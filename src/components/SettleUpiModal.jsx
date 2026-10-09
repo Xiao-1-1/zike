@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { IndianRupee, X, Check, QrCode, ExternalLink, ShieldCheck } from "lucide-react";
+import { IndianRupee, X, Check, ExternalLink, ShieldCheck } from "lucide-react";
 import confetti from "canvas-confetti";
 
 export function SettleUpiModal({ expense, onClose, onConfirmSettlement }) {

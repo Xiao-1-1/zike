@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Clock, Copy, Check, Sparkles, Archive, Presentation, Users, Share2 } from "lucide-react";
+import { Clock, Copy, Check, Sparkles, Archive, Presentation, Users, Plus } from "lucide-react";
 
 export function Header({ space, onOpenAiBriefing, onOpenVault, onOpenTeardown, onNewSpaceClick }) {
   const [copied, setCopied] = useState(false);
@@ -117,6 +117,27 @@ export function Header({ space, onOpenAiBriefing, onOpenVault, onOpenTeardown, o
         >
           <Sparkles size={15} color="#22d3ee" />
           <span>AI Catch-Up</span>
+        </button>
+
+        {/* Create Space Button */}
+        <button
+          onClick={onNewSpaceClick}
+          title="Create New Ephemeral Space"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: "5px",
+            background: "rgba(6, 182, 212, 0.12)",
+            border: "1px solid rgba(6, 182, 212, 0.35)",
+            padding: "8px 12px",
+            borderRadius: "10px",
+            color: "var(--accent-cyan)",
+            fontSize: "0.85rem",
+            fontWeight: "700"
+          }}
+        >
+          <Plus size={14} />
+          <span>+ Space</span>
         </button>
 
         {/* Export / Vault Button */}
