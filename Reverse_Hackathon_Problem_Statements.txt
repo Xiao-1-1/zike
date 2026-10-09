@@ -1,0 +1,110 @@
+Reverse Hackathon: Problem Statements
+Every product below was once built by smart people, funded well and used by millions. Every one of them lost.
+Your team chooses one. Your job is not to rebuild it as it was. Your job is to work out why it failed, decide what it should have been, and build a working version of that idea.
+The Challenge
+Tear it down. Use the product, read about it, talk to people who used it. Find out what it promised, what it delivered and where the gap was.
+Rethink the purpose. Ask why it should exist. You may fix it, flip it, shrink it, or replace it with something different that serves the same need.
+Build it. Show a working prototype of your new idea. Slides alone will not be enough.
+Defend it. Tell the judges what you found, what you chose and what you left out.
+Timeline
+What You Submit
+A working prototype or live demo link
+Your code repository
+A one-page summary covering the product, your findings, your new purpose and what you built
+How You Will Be Judged
+Tie-breaker: higher marks in "Rethinking purpose", then "Working prototype".
+Rules
+Teams of 2 to 4. No changes after registration.
+Start from scratch. Public libraries, APIs and AI tools are allowed, but you must be able to explain every part of your submission.
+Demos must be live. Pre-recorded demos need to be declared before you present.
+Critique products, not people or organisations.
+Late submissions lose marks. The code freeze is final.
+The judges' decision is final.
+Software Problem Statements
+PS-01: Hike Messenger
+What it was: An Indian chat app launched in 2012, known for stickers, themes and playful features. It positioned itself as a fun, India-first alternative to the messaging apps people already used. The messenger was eventually shut down.
+What it set out to do: Win India's growing smartphone users with a messenger that felt made for them.
+Where it fell short (hints, not answers):
+Messaging gets its value from who else is already on it. Think about what it takes to make someone leave the app all their friends are on.
+Fun features are easy to copy. What is hard to copy?
+Look at what the company later tried to become. Why did it keep changing direction?
+Your challenge: Decide what a messaging product should be for a specific group of people, and build the first working version of it.
+Creative freedom: It does not have to be a messenger. It does not have to replace anything. You decide who it is for and why they would switch.
+PS-02: Dunzo
+What it was: A Bengaluru startup that began as a WhatsApp-based errand service in 2014 and grew into quick commerce, delivering groceries and items from nearby stores. It struggled financially and its operations were wound down.
+What it set out to do: Deliver almost anything from nearby, fast, at an affordable price.
+Where it fell short (hints, not answers):
+Look at where the money came from and where it went on each order.
+Fast delivery is expensive. Who actually pays for it, and who should?
+What was Dunzo's real advantage over the giants entering the same space?
+Your challenge: Rethink hyperlocal delivery so it works for the customer, the delivery partner and the business, and build a working prototype of your model.
+Creative freedom: You can change the speed, the pricing, the supply, the audience or the purpose. Quick does not have to mean the same thing as 10 minutes.
+PS-03: Google+
+What it was: Google's social network, launched in 2011. It introduced ideas like Circles for sharing with specific groups of people. The consumer version was shut down in 2019.
+What it set out to do: Offer a smarter, more private alternative to the social networks people were already using.
+Where it fell short (hints, not answers):
+Having millions of sign-ups is not the same as having people who come back.
+Who was it built for, and what would they have done there that they could not do anywhere else?
+Think about how it was introduced to users. Was it a choice or a push?
+Your challenge: Define what a social space should be today, for whom and why, and build the first version.
+Creative freedom: Go big or go very small. A tiny community with a clear reason to exist is welcome. So is a rethink of what "social" means.
+PS-04: Clubhouse
+What it was: An invite-only, audio-only social app that exploded in early 2021. People joined live rooms to listen and talk. Usage dropped sharply after the initial hype.
+What it set out to do: Give people drop-in conversations with interesting people, like a live, open-ended podcast.
+Where it fell short (hints, not answers):
+A product that spikes is not a product that lasts. What was missing after the first week?
+What happens when the conversation ends? What is left behind?
+Look at how creators and listeners were each rewarded, or not.
+Your challenge: Rethink live audio so people keep coming back, and build a working prototype that proves it.
+Creative freedom: Audio, video, text or something else entirely. You choose the medium and the audience.
+Hardware Problem Statements
+No physical components are provided. Hardware teams build a simulated prototype: a virtual device with real code, connected to a working software side. The device logic has to do something real.
+How Hardware Teams Show Their Prototype
+Hardware teams demo a simulated device running live. It can be rough, but it has to respond to real input and do its core job.
+Pick a simulator. Free browser-based tools work well, such as Wokwi (ESP32, Arduino, Raspberry Pi Pico) or Tinkercad Circuits (Arduino). Any simulator of your choice is fine.
+Build the circuit and write the real firmware. Place the virtual board, buttons, sensors, LEDs and displays, and run your own code on them. Do not fake the behaviour with slides or animation.
+Connect it to a working software side. Pair the device with a dashboard, app or script that reacts to what the device does. The software has to be real and working.
+Show it running live. Project the simulator. Click the virtual button, change a sensor value with the slider, and show what happens on screen.
+Let the judges change the input. Be ready for a judge to ask you to press the button, shift a sensor reading or trigger an error.
+Say what is simulated. Tell the judges which parts are virtual and what the real hardware would be and cost.
+Submit proof beside the code. Add your simulator project link, a screenshot or wiring diagram, your code repository and the one-page summary.
+Your own components. If a team happens to own components and brings them, a physical build may be shown instead. It earns no bonus either way.
+Backup clip. You may keep a short video of the demo working in case something fails on stage. Declare it before you present. The live demo is what earns the Demo marks.
+PS-05: Windows Phone
+What it was: Microsoft's smartphone platform, launched in 2010 and best known on Nokia Lumia phones. It had a distinctive tile-based design. Microsoft ended support in 2019.
+What it set out to do: Offer a third serious choice next to Android and iPhone.
+Where it fell short (hints, not answers):
+A platform needs more than a good design. What did people want to run on it?
+Who builds for a platform when almost nobody uses it, and who uses a platform when nobody builds for it?
+Think about the timing of its entry and the company's earlier moves.
+Your challenge: You cannot rebuild a phone in a day, so rethink the idea. Build a working prototype of a device, accessory, interface or platform layer that solves the problem the platform failed to solve.
+Creative freedom: It does not have to be a phone. It does not have to compete with Android or iPhone. Decide what job needs doing, and do it with hardware.
+PS-06: Amazon Dash Button
+What it was: A small Wi-Fi button, about the size of a few coins, that reordered one specific product with a single press. Amazon launched it in 2015 and retired the original buttons in 2019.
+What it set out to do: Make reordering everyday items as easy as pressing a button.
+Where it fell short (hints, not answers):
+Think about what the button did not show you before you pressed it.
+One button, one product. Does that match how people actually shop or live?
+What happens when you press it by mistake? When prices change? When you travel?
+Your challenge: Rethink the physical, single-press interface for a modern need. Build a working simulated hardware prototype and the system around it.
+Creative freedom: It does not have to order anything. It does not have to be a button. Choose a place, a person, a problem and a gesture.
+Notes for Teams
+Do not limit yourself to the hints. They are a starting point.
+Do your own research. The strongest teams find things that are not written here.
+Scope smartly. A small thing that works beats a big thing that does not.
+Keep notes as you go. The judges will ask what you found, not just what you built.
+
+Time | Phase
+10:15 AM to 12:30 PM | Phase 1: Teardown
+1:15 PM to 3:15 PM | Phase 2: Build (mentor round at 2:30 PM)
+3:15 PM onwards | Final demos: 5 minutes pitch and 3 minutes Q&A
+
+Criteria | Marks
+Product analysis and problem identification | 20
+Rethinking purpose and originality | 20
+Solution quality and technical depth | 20
+Working prototype and demo | 15
+Impact and feasibility | 10
+Presentation and Q&A | 10
+Time-boxed execution | 5
+Total | 100

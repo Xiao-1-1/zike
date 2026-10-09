@@ -1,0 +1,6 @@
+/* Responsive tweaks */
+@media (max-width: 1024px) {
+  aside {
+    display: none !important;
+  }
+}
